@@ -2,7 +2,7 @@ Name:		pdfmod
 License:	GPL v2.0 or later
 Group:		Office
 Version:        0.9.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:	PDF Mod is a simple application for modifying PDF documents
 Url:		http://live.gnome.org/PdfMod
 Source:         http://ftp.gnome.org/pub/GNOME/sources/pdfmod/0.9//%{name}-%{version}.tar.bz2
