@@ -23,11 +23,10 @@ BuildRequires:	mono-devel
 BuildRequires:	mono-nunit
 BuildRequires:	ndesk-dbus
 BuildRequires:	ndesk-dbus-glib-devel
-BuildRequires:	perl-XML-Parser
 BuildRequires:	scrollkeeper
 BuildRequires:	tango-icon-theme
-BuildRequires:	make autoconf automake libtool pkgconfig
-BuildRequires:	intltool perl-XML-Parser
+BuildRequires:  desktop-file-utils
+BuildRequires:	intltool
 Requires:	mono
 Requires:	gtk-sharp2
 #Requires:	libpoppler-glib
