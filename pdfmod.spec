@@ -4,7 +4,7 @@ Group:		Office
 Version:        0.9.1
 Release:        %mkrel 2
 Summary:	PDF Mod is a simple application for modifying PDF documents
-Url:		http://live.gnome.org/PdfMod
+Url:		https://live.gnome.org/PdfMod
 Source:         http://ftp.gnome.org/pub/GNOME/sources/pdfmod/0.9//%{name}-%{version}.tar.bz2
 Source1:	pdfmod-poppler-sharp.dll.config
 #patch for mono 2.10
