@@ -10,6 +10,11 @@ Source1:	pdfmod-poppler-sharp.dll.config
 #patch for mono 2.10
 Patch0:		pdfmod-mono-2.10-1.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-build
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	hyena >= 0.5
 BuildRequires:	docbook-dtd42-sgml
 BuildRequires:	gmime-sharp
